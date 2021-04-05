@@ -1,0 +1,66 @@
+<html>
+    <title >
+        OMS
+    </title>
+    <link rel="stylesheet" href="order.css">
+    <body bgcolor="Aquamarine" >
+        
+        <form>
+        <h1>Order    Management    System</h1><br><br>
+        <input type="text" height="20px">Which product Do You want ?
+        <h3>Type of Order</h3>
+            <div onclick="dosomething()" onclick="action()">
+            <input type="radio" name='type' >Domestic
+            <input type="radio" name='type'>International
+            </div><br><br>
+        <h3>Company Product</h3><br>
+        <div onclick="dosomething()" onclick="action()">
+            <input type="checkbox" >SAMSUNG
+            <input type="checkbox">OPPO
+            <input type="checkbox">VIVO
+            <input type="checkbox">REDMI
+            
+        </div><br><br>
+        <h2>Our Products</h2><br>
+        <select>
+            <option value="opt1">MOBILE</option>
+            <option value="opt2">LAPTOP</option>
+            <option value="opt3">TELEVISION</option>
+            <option value="opt4">FRIDGE</option>
+        </select>
+        </form>
+
+        <button onclick="dosomething()">save</button>
+        <h2>Product list</h2>
+        <table>
+            <thead>
+                <th>ITEM</th>
+                <th>PRICE</th>
+                <th>TAX</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MOBILE</td>
+                    <td>10000-3z0000</td>
+                    <td>5.6%</td>
+                </tr>
+                <tr>
+                    <td>LAPTOP</td>
+                    <td>25000-200000</td>
+                    <td>6.5%</td>
+                </tr>
+                <tr>
+                    <td>LCD</td>
+                    <td>30000-300000</td>
+                    <td>4.8%</td>
+                </tr>
+            </tbody>
+        </table>
+        <br><br>
+        
+        <button onclick="dosomething()">SUBMIT</button>
+
+    </body>
+    <script src="order.js"></script>
+
+</html>
